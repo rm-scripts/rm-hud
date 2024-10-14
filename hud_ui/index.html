@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Custom HUD</title>
+        <!-- Font Awesome CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="hud">
+            <div class="hud-icon" id="health">
+                <i class="fas fa-heartbeat"></i>
+                <div class="percentage" id="health-percentage">0%</div>
+            </div>
+            <div class="hud-icon" id="armor">
+                <i class="fas fa-shield-alt"></i>
+                <div class="percentage" id="armor-percentage">0%</div>
+            </div>
+            <div class="hud-icon" id="mic">
+                <i class="fas fa-microphone"></i>
+                <div class="percentage">&nbsp;</div>
+            </div>
+            <div class="hud-icon" id="hunger">
+                <i class="fas fa-utensils"></i>
+                <div class="percentage" id="hunger-percentage">0%</div>
+            </div>
+            <div class="hud-icon" id="thirst">
+                <i class="fas fa-tint"></i>
+                <div class="percentage" id="thirst-percentage">0%</div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

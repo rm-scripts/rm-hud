@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#hud {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1%;
+    display: none;
+}
+
+.hud-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 0 10px;
+    gap: 5px;
+}
+
+.percentage {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    color: white;
+    width: 35px;
+    text-align: center;
+    text-shadow: 0.5px 0.5px 0px black,
+        -0.5px 0.5px 0px black,
+        0.5px -0.5px 0px black,
+        -0.5px -0.5px 0px black;
+}
+
+#mic i {
+    color: white;
+    text-shadow: 0 0 10px white;
+}
+
+#health i {
+    color: #ED4245;
+    text-shadow: 0 0 10px #ED4245;
+}
+
+#armor i {
+    color: rgb(18, 89, 255);
+    text-shadow: 0 0 10px rgb(18, 89, 255);
+}
+
+#hunger i {
+    color: #CCCC00;
+    text-shadow: 0 0 10px #CCCC00;
+}
+
+#thirst i {
+    color: rgb(38, 153, 253);
+    text-shadow: 0 0 10px rgb(38, 153, 253);
+}
+
+.hud-icon i {
+    font-size: 20px;
+    color: #dcdcdc;
+    text-shadow: 0.5px 0.5px 0px black,
+        -0.5px 0.5px 0px black,
+        0.5px -0.5px 0px black,
+        -0.5px -0.5px 0px black;
+}
